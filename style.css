@@ -1,0 +1,84 @@
+html{
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: url("jobbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  padding-bottom: 30px;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+.wrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search{
+  text-align: center;
+}
+
+.search h1{
+  color: rgb(204, 251, 255, 0.9);
+  font-size: 5vw;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.searchbar{
+  width: 50%;
+  background: rgb(255,255,255,0.4);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+}
+
+.searchbar input{
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: #ccfbff;
+}
+
+::placeholder{
+  color: rgb(204, 251, 255, 0.9);
+}
+
+.searchbar img{
+  width: 30px;
+}
+
+.searchbar button{
+  border: 0;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  background: rgb(204, 251, 255, 0.9);
+}
+
+#countryImage {
+  max-width: 30%;
+  height: auto;
+}
+
+.content{
+  color:white;
+  text-align: center;
+}
+
+.news-article{
+  color: white;
+}
